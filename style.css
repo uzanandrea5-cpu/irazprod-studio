@@ -1,0 +1,9 @@
+:root{--bg:#0f0f0f;--carte:#181818;--ligne:#303030;--texte:#f1f1f1;--doux:#aaa;--rouge:#ff5263}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--texte);font:16px/1.6 Roboto,-apple-system,system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 16px}
+h1{font-size:28px;font-weight:500;margin:0 0 8px}h2{font-size:18px;font-weight:500;margin:32px 0 8px}
+p,li{color:var(--texte)}small,.doux{color:var(--doux)}
+a{color:var(--rouge)}
+header{display:flex;align-items:center;gap:12px;margin-bottom:32px}
+header svg{width:44px;height:31px}
